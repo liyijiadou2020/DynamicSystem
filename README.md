@@ -10,9 +10,11 @@
 $$
 x_{n+1} = \frac{x_{n}\left(a-x_{n}-y_{n}\right)}{3}
 $$
+
 $$
 y_{n+1} = \frac{y_{n}\left(b y_{n}-x_{n}\right)}{3}
 $$
+
 $$
 \mathrm{a} = \{5.0,5.1\}, \mathrm{b} = \{3.0,3.1\};
 $$
