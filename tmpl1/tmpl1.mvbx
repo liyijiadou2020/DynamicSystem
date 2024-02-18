@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1251" ?>
-<mvBaseX name="TMPL1" build="73" objcount="96" litcount="436" DIM="true">
+<mvBaseX name="TMPL1" build="79" objcount="96" litcount="436" DIM="true">
   <d_Named name="PrjH" oid="1"/>
   <d_Obj oid="1" class="TProject" classID="9" classID2="1">
     <d_Attr name="Name">tmpl1</d_Attr>
@@ -218,7 +218,7 @@
                   <d_Obj oid="20" class="TVariable" classID="9" classID2="15">
                     <d_Attr name="Name">n</d_Attr>
                     <d_Attr name="Stereotype">AV&#x20;&#x20;&#x20;&#x20;R</d_Attr>
-                    <d_Attr name="ExpType" valueI="5">integer</d_Attr>
+                    <d_Attr name="ExpType" valueI="5">int</d_Attr>
                     <d_AttrRef name="Value" oid="-228"/>
                   </d_Obj>
                     <d_Obj oid="-228" class="TLiteral" classID="18" classID2="2">
@@ -279,7 +279,7 @@
                   <d_Obj oid="80" class="TVariable" classID="9" classID2="15">
                     <d_Attr name="Name">j</d_Attr>
                     <d_Attr name="Stereotype">AV&#x20;&#x20;&#x20;&#x20;R</d_Attr>
-                    <d_Attr name="ExpType" valueI="5">integer</d_Attr>
+                    <d_Attr name="ExpType" valueI="5">int</d_Attr>
                     <d_AttrRef name="Value" oid="-362"/>
                   </d_Obj>
                     <d_Obj oid="-362" class="TLiteral" classID="18" classID2="2">
@@ -472,6 +472,7 @@
                         <d_Attr name="W">20</d_Attr>
                       </d_Obj>
                     <d_Obj oid="59" class="TBChartNode" classID="9" classID2="32">
+                      <d_Attr name="Name">_FinalState</d_Attr>
                       <d_Attr name="Stereotype">F&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;</d_Attr>
                       <d_AttrObj name="enA" oid="-344"/>
                       <d_AttrObj name="exA" oid="-343"/>
@@ -482,7 +483,7 @@
                       <d_Obj oid="-343" class="d_List" classID="7">
                       </d_Obj>
                       <d_Obj oid="-342" class="TNodeEdInf" classID="9" classID2="40">
-                        <d_Attr name="X">550</d_Attr>
+                        <d_Attr name="X">510</d_Attr>
                         <d_Attr name="Y">40</d_Attr>
                         <d_Attr name="H">20</d_Attr>
                         <d_Attr name="W">20</d_Attr>
@@ -521,13 +522,13 @@
                       <d_AttrRef name="initN" oid="15"/>
                       <d_AttrRef name="finalN" oid="85"/>
                       <d_AttrObj name="SPL" oid="-383"/>
-                      <d_AttrRef name="TE" oid="-379"/>
+                      <d_AttrRef name="TE" oid="-429"/>
                       <d_AttrObj name="A" oid="-382"/>
                       <d_AttrObj name="EI" oid="-381"/>
                     </d_Obj>
                       <d_Obj oid="-383" class="d_List" classID="7">
                       </d_Obj>
-                      <d_Obj oid="-379" class="TLiteral" classID="18" classID2="2">
+                      <d_Obj oid="-429" class="TLiteral" classID="18" classID2="2">
                         <d_Attr name="VT" valueI="6">byte</d_Attr>
                         <d_Attr name="S">20</d_Attr>
                       </d_Obj>
@@ -681,7 +682,7 @@
                             <point x="510" y="90"/>
                             <point x="500" y="230"/>
                             <point x="220" y="220"/>
-                            <point x="180" y="160"/>
+                            <point x="160" y="180"/>
                             <point x="130" y="140"/>
                         </d_Obj>
                     <d_Obj oid="48" class="TTransition" classID="9" classID2="33">
@@ -700,8 +701,8 @@
                       </d_Obj>
                       <d_Obj oid="-339" class="TTransEdInf" classID="9" classID2="41">
                         <d_AttrRef name="PPA" oid="-338"/>
-                        <d_Attr name="FN_X">430</d_Attr>
-                        <d_Attr name="FN_Y">50</d_Attr>
+                        <d_Attr name="FN_X">400</d_Attr>
+                        <d_Attr name="FN_Y">30</d_Attr>
                       </d_Obj>
                         <d_Obj oid="-338" class="d_Polyline" classID="29">
                             <point x="470" y="70"/>
@@ -1112,7 +1113,7 @@
                 <d_Obj oid="49" class="TVariable" classID="9" classID2="15">
                   <d_Attr name="Name">n1</d_Attr>
                   <d_Attr name="Stereotype">AV&#x20;&#x20;&#x20;&#x20;R</d_Attr>
-                  <d_Attr name="ExpType" valueI="5">integer</d_Attr>
+                  <d_Attr name="ExpType" valueI="5">int</d_Attr>
                   <d_AttrRef name="Value" oid="-276"/>
                 </d_Obj>
                   <d_Obj oid="-276" class="TLiteral" classID="18" classID2="2">
@@ -1138,7 +1139,7 @@
                     </d_Attr>
                   </d_Obj>
                     <d_Obj oid="-433" class="TLiteral" classID="18" classID2="2">
-                      <d_Attr name="VT" valueI="5">integer</d_Attr>
+                      <d_Attr name="VT" valueI="5">int</d_Attr>
                       <d_Attr name="S">400</d_Attr>
                     </d_Obj>
                 <d_Obj oid="31" class="TVariable" classID="9" classID2="15">
@@ -1160,13 +1161,13 @@
                     </d_Attr>
                   </d_Obj>
                     <d_Obj oid="-435" class="TLiteral" classID="18" classID2="2">
-                      <d_Attr name="VT" valueI="5">integer</d_Attr>
+                      <d_Attr name="VT" valueI="5">int</d_Attr>
                       <d_Attr name="S">400</d_Attr>
                     </d_Obj>
                 <d_Obj oid="70" class="TVariable" classID="9" classID2="15">
                   <d_Attr name="Name">i</d_Attr>
                   <d_Attr name="Stereotype">AV&#x20;&#x20;&#x20;&#x20;R</d_Attr>
-                  <d_Attr name="ExpType" valueI="5">integer</d_Attr>
+                  <d_Attr name="ExpType" valueI="5">int</d_Attr>
                   <d_AttrRef name="Value" oid="-292"/>
                 </d_Obj>
                   <d_Obj oid="-292" class="TLiteral" classID="18" classID2="2">

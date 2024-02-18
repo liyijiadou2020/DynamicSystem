@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1251" ?>
-<mvBaseX name="TMPL1" build="64" objcount="96" litcount="436" DIM="true">
+<mvBaseX name="TMPL1" build="73" objcount="96" litcount="436" DIM="true">
   <d_Named name="PrjH" oid="1"/>
   <d_Obj oid="1" class="TProject" classID="9" classID2="1">
     <d_Attr name="Name">tmpl1</d_Attr>
@@ -291,34 +291,34 @@
                     <d_Attr name="Stereotype">AV&#x20;&#x20;&#x20;&#x20;R</d_Attr>
                     <d_Attr name="ExpType" valueI="14">vector</d_Attr>
                     <d_AttrRef name="VTdef" oid="-354"/>
-                    <d_AttrRef name="Value" oid="-392"/>
+                    <d_AttrRef name="Value" oid="-418"/>
                   </d_Obj>
                     <d_Obj oid="-354" class="TTypeDef" classID="16">
                       <d_Attr name="VT" valueI="14">vector</d_Attr>
                       <d_Attr name="RowNum">4</d_Attr>
                       <d_Attr name="ColNum">1</d_Attr>
                     </d_Obj>
-                    <d_Obj oid="-392" class="TMatrix" classID="18" classID2="5">
+                    <d_Obj oid="-418" class="TMatrix" classID="18" classID2="5">
                       <d_Attr name="RowNum">4</d_Attr>
                       <d_Attr name="ColNum">1</d_Attr>
-                      <item i="1" j="1" oid="-398"/>
-                      <item i="2" j="1" oid="-397"/>
-                      <item i="3" j="1" oid="-394"/>
-                      <item i="4" j="1" oid="-393"/>
+                      <item i="1" j="1" oid="-422"/>
+                      <item i="2" j="1" oid="-421"/>
+                      <item i="3" j="1" oid="-420"/>
+                      <item i="4" j="1" oid="-419"/>
                     </d_Obj>
-                      <d_Obj oid="-398" class="TLiteral" classID="18" classID2="2">
+                      <d_Obj oid="-422" class="TLiteral" classID="18" classID2="2">
                         <d_Attr name="VT" valueI="2"></d_Attr>
                         <d_Attr name="S">0.2</d_Attr>
                       </d_Obj>
-                      <d_Obj oid="-397" class="TLiteral" classID="18" classID2="2">
+                      <d_Obj oid="-421" class="TLiteral" classID="18" classID2="2">
                         <d_Attr name="VT" valueI="2"></d_Attr>
                         <d_Attr name="S">0.2</d_Attr>
                       </d_Obj>
-                      <d_Obj oid="-394" class="TLiteral" classID="18" classID2="2">
+                      <d_Obj oid="-420" class="TLiteral" classID="18" classID2="2">
                         <d_Attr name="VT" valueI="2"></d_Attr>
                         <d_Attr name="S">0.4</d_Attr>
                       </d_Obj>
-                      <d_Obj oid="-393" class="TLiteral" classID="18" classID2="2">
+                      <d_Obj oid="-419" class="TLiteral" classID="18" classID2="2">
                         <d_Attr name="VT" valueI="2"></d_Attr>
                         <d_Attr name="S">0.4</d_Attr>
                       </d_Obj>
@@ -327,34 +327,34 @@
                     <d_Attr name="Stereotype">AV&#x20;&#x20;&#x20;&#x20;R</d_Attr>
                     <d_Attr name="ExpType" valueI="14">vector</d_Attr>
                     <d_AttrRef name="VTdef" oid="-345"/>
-                    <d_AttrRef name="Value" oid="-375"/>
+                    <d_AttrRef name="Value" oid="-413"/>
                   </d_Obj>
                     <d_Obj oid="-345" class="TTypeDef" classID="16">
                       <d_Attr name="VT" valueI="14">vector</d_Attr>
                       <d_Attr name="RowNum">4</d_Attr>
                       <d_Attr name="ColNum">1</d_Attr>
                     </d_Obj>
-                    <d_Obj oid="-375" class="TMatrix" classID="18" classID2="5">
+                    <d_Obj oid="-413" class="TMatrix" classID="18" classID2="5">
                       <d_Attr name="RowNum">4</d_Attr>
                       <d_Attr name="ColNum">1</d_Attr>
-                      <item i="1" j="1" oid="-391"/>
-                      <item i="2" j="1" oid="-390"/>
-                      <item i="3" j="1" oid="-377"/>
-                      <item i="4" j="1" oid="-376"/>
+                      <item i="1" j="1" oid="-417"/>
+                      <item i="2" j="1" oid="-416"/>
+                      <item i="3" j="1" oid="-415"/>
+                      <item i="4" j="1" oid="-414"/>
                     </d_Obj>
-                      <d_Obj oid="-391" class="TLiteral" classID="18" classID2="2">
+                      <d_Obj oid="-417" class="TLiteral" classID="18" classID2="2">
                         <d_Attr name="VT" valueI="2"></d_Attr>
                         <d_Attr name="S">0.2</d_Attr>
                       </d_Obj>
-                      <d_Obj oid="-390" class="TLiteral" classID="18" classID2="2">
+                      <d_Obj oid="-416" class="TLiteral" classID="18" classID2="2">
                         <d_Attr name="VT" valueI="2"></d_Attr>
                         <d_Attr name="S">0.4</d_Attr>
                       </d_Obj>
-                      <d_Obj oid="-377" class="TLiteral" classID="18" classID2="2">
+                      <d_Obj oid="-415" class="TLiteral" classID="18" classID2="2">
                         <d_Attr name="VT" valueI="2"></d_Attr>
                         <d_Attr name="S">0.4</d_Attr>
                       </d_Obj>
-                      <d_Obj oid="-376" class="TLiteral" classID="18" classID2="2">
+                      <d_Obj oid="-414" class="TLiteral" classID="18" classID2="2">
                         <d_Attr name="VT" valueI="2"></d_Attr>
                         <d_Attr name="S">0.2</d_Attr>
                       </d_Obj>
@@ -433,8 +433,8 @@
                         <d_Attr name="Y">70</d_Attr>
                         <d_Attr name="H">40</d_Attr>
                         <d_Attr name="W">60</d_Attr>
-                        <d_Attr name="FN_X">70</d_Attr>
-                        <d_Attr name="FN_Y">160</d_Attr>
+                        <d_Attr name="FN_X">60</d_Attr>
+                        <d_Attr name="FN_Y">220</d_Attr>
                       </d_Obj>
                     <d_Obj oid="85" class="TBChartNode" classID="9" classID2="32">
                       <d_Attr name="Stereotype">S&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;</d_Attr>
@@ -674,6 +674,8 @@
                       </d_Obj>
                       <d_Obj oid="-347" class="TTransEdInf" classID="9" classID2="41">
                         <d_AttrRef name="PPA" oid="-346"/>
+                        <d_Attr name="FN_X">520</d_Attr>
+                        <d_Attr name="FN_Y">170</d_Attr>
                       </d_Obj>
                         <d_Obj oid="-346" class="d_Polyline" classID="29">
                             <point x="510" y="90"/>
@@ -943,8 +945,8 @@
                                 <d_Attr name="Y">70</d_Attr>
                                 <d_Attr name="H">40</d_Attr>
                                 <d_Attr name="W">60</d_Attr>
-                                <d_Attr name="FN_X">80</d_Attr>
-                                <d_Attr name="FN_Y">150</d_Attr>
+                                <d_Attr name="FN_X">120</d_Attr>
+                                <d_Attr name="FN_Y">160</d_Attr>
                               </d_Obj>
                           <d_Obj oid="-237" class="d_List" classID="7">
                             <d_Ref oid="58"/>
@@ -1411,8 +1413,8 @@
                           <d_Attr name="Y">70</d_Attr>
                           <d_Attr name="H">40</d_Attr>
                           <d_Attr name="W">60</d_Attr>
-                          <d_Attr name="FN_X">180</d_Attr>
-                          <d_Attr name="FN_Y">230</d_Attr>
+                          <d_Attr name="FN_X">150</d_Attr>
+                          <d_Attr name="FN_Y">180</d_Attr>
                         </d_Obj>
                     <d_Obj oid="-193" class="d_List" classID="7">
                       <d_Ref oid="38"/>
@@ -1543,7 +1545,7 @@
             <d_Obj oid="-405" class="d_List" classID="7">
             </d_Obj>
             <d_Obj oid="-404" class="TDevClassEdInf" classID="9" classID2="9">
-              <d_Attr name="Top">70</d_Attr>
+              <d_Attr name="Top">100</d_Attr>
               <d_Attr name="Left">180</d_Attr>
             </d_Obj>
             <d_Obj oid="-403" class="d_List" classID="7">

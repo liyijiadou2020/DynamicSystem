@@ -59,13 +59,13 @@ if __name__ == "__main__":
     a_values = [5.0, 5.1]
     b_values = [3.0, 3.1]
     # initial_states = [np.array([0.1, 0.2]), np.array([0.1, 0.2]), np.array([0.1, 0.5])]
-    initial_states = [np.array([0, 0]), np.array([0.1, 0.2]), np.array([0.5, 0.5]), np.array([1.5, 1])]
+    initial_states = [np.array([0.1, 0.1]), np.array([0.5, 0.2]), np.array([1.0, 0.5]), np.array([1.5, 1])]
 
     for a in a_values:
         for b in b_values:
             ds = ScalarDynamicSystem(a, b)
             title = f"Phase Diagram for a={a}, b={b}"
-            ds.plot_phase_diagram(initial_states, 2000, title)
+            ds.plot_phase_diagram(initial_states, 20000, title)
 
             finder = FixedPointsFinder(ds)
             search_space = [np.array([x, y]) for x in np.linspace(0, 5, 50) for y in np.linspace(0, 5, 50)]
