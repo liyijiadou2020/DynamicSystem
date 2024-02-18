@@ -25,8 +25,6 @@ $$
 
 
 
-
-
 ![image.png](https://raw.githubusercontent.com/liyijiadou2020/picrepo/master/202402181732412.png)
 
 

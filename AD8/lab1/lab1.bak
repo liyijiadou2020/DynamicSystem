@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1251" ?>
-<mvBaseX name="LAB1" build="15" objcount="78" litcount="323" DIM="true">
+<mvBaseX name="LAB1" build="18" objcount="78" litcount="323" DIM="true">
   <d_Named name="PrjH" oid="1"/>
   <d_Obj oid="1" class="TProject" classID="9" classID2="1">
     <d_Attr name="Name">lab1</d_Attr>
@@ -1272,7 +1272,120 @@
   <d_Obj oid="5" class="d_List" classID="7">
     <d_Ref oid="2"/>
     <d_Ref oid="62"/>
+    <d_Ref oid="77"/>
   </d_Obj>
+    <d_Obj oid="77" class="TActiveDynObjectClass" classID="9" classID2="3">
+      <d_Attr name="Name">Class_2</d_Attr>
+      <d_AttrRef name="Super" oid="62"/>
+      <d_Attr name="Stereotype">HCGI&#x20;&#x20;R</d_Attr>
+      <d_AttrObj name="IL" oid="-322"/>
+      <d_AttrObj name="PL" oid="-321"/>
+      <d_AttrObj name="SL" oid="-320"/>
+      <d_AttrObj name="CL" oid="-319"/>
+      <d_AttrObj name="FL" oid="-318"/>
+      <d_AttrObj name="BC" oid="-313"/>
+      <d_AttrObj name="EQ" oid="78"/>
+      <d_AttrObj name="LC" oid="-181"/>
+      <d_AttrObj name="LS" oid="-178"/>
+      <d_Attr name="rot_icon">true</d_Attr>
+    </d_Obj>
+      <d_Obj oid="-322" class="d_List" classID="7">
+      </d_Obj>
+      <d_Obj oid="-321" class="d_List" classID="7">
+      </d_Obj>
+      <d_Obj oid="-320" class="d_List" classID="7">
+        <d_Ref oid="49"/>
+        <d_Ref oid="48"/>
+      </d_Obj>
+        <d_Obj oid="49" class="TVariable" classID="9" classID2="15">
+          <d_Attr name="Name">x_vec</d_Attr>
+          <d_Attr name="Stereotype">AV&#x20;&#x20;&#x20;&#x20;R</d_Attr>
+          <d_Attr name="ExpType" valueI="14">vector</d_Attr>
+          <d_AttrRef name="VTdef" oid="-176"/>
+          <d_AttrRef name="Value" oid="-174"/>
+        </d_Obj>
+          <d_Obj oid="-176" class="TTypeDef" classID="16">
+            <d_Attr name="VT" valueI="14">vector</d_Attr>
+            <d_Attr name="RowNum">400</d_Attr>
+            <d_Attr name="ColNum">1</d_Attr>
+          </d_Obj>
+          <d_Obj oid="-174" class="TFunCall" classID="18" classID2="4">
+            <d_Attr name="pfN">23</d_Attr>
+            <d_Attr name="APL">
+              <item oid="-175"/>
+            </d_Attr>
+          </d_Obj>
+            <d_Obj oid="-175" class="TLiteral" classID="18" classID2="2">
+              <d_Attr name="VT" valueI="5">int</d_Attr>
+              <d_Attr name="S">400</d_Attr>
+            </d_Obj>
+        <d_Obj oid="48" class="TVariable" classID="9" classID2="15">
+          <d_Attr name="Name">y_vec</d_Attr>
+          <d_Attr name="Stereotype">AV&#x20;&#x20;&#x20;&#x20;R</d_Attr>
+          <d_Attr name="ExpType" valueI="14">vector</d_Attr>
+          <d_AttrRef name="VTdef" oid="-172"/>
+          <d_AttrRef name="Value" oid="-170"/>
+        </d_Obj>
+          <d_Obj oid="-172" class="TTypeDef" classID="16">
+            <d_Attr name="VT" valueI="14">vector</d_Attr>
+            <d_Attr name="RowNum">400</d_Attr>
+            <d_Attr name="ColNum">1</d_Attr>
+          </d_Obj>
+          <d_Obj oid="-170" class="TFunCall" classID="18" classID2="4">
+            <d_Attr name="pfN">23</d_Attr>
+            <d_Attr name="APL">
+              <item oid="-171"/>
+            </d_Attr>
+          </d_Obj>
+            <d_Obj oid="-171" class="TLiteral" classID="18" classID2="2">
+              <d_Attr name="VT" valueI="5">int</d_Attr>
+              <d_Attr name="S">400</d_Attr>
+            </d_Obj>
+      <d_Obj oid="-319" class="d_List" classID="7">
+      </d_Obj>
+      <d_Obj oid="-318" class="d_List" classID="7">
+      </d_Obj>
+      <d_Obj oid="-313" class="TBehavChart" classID="9" classID2="31">
+        <d_AttrRef name="CR" oid="77"/>
+        <d_AttrObj name="NL" oid="-317"/>
+        <d_AttrObj name="TL" oid="-315"/>
+        <d_AttrObj name="IMdsp" oid="-314"/>
+      </d_Obj>
+        <d_Obj oid="-317" class="d_List" classID="7">
+        </d_Obj>
+        <d_Obj oid="-315" class="d_List" classID="7">
+        </d_Obj>
+        <d_Obj oid="-314" class="TPosition" classID="9" classID2="39">
+        </d_Obj>
+      <d_Obj oid="78" class="TEquationsSet" classID="9" classID2="34">
+        <d_AttrRef name="CR" oid="77"/>
+        <d_AttrObj name="EQL" oid="-312"/>
+        <d_AttrObj name="UVL" oid="-311"/>
+        <d_AttrObj name="DIL" oid="-310"/>
+        <d_AttrObj name="KVL" oid="-183"/>
+        <d_AttrObj name="CBKVL" oid="-182"/>
+      </d_Obj>
+        <d_Obj oid="-312" class="d_List" classID="7">
+        </d_Obj>
+        <d_Obj oid="-311" class="d_List" classID="7">
+        </d_Obj>
+        <d_Obj oid="-310" class="d_List" classID="7">
+        </d_Obj>
+        <d_Obj oid="-183" class="d_List" classID="7">
+        </d_Obj>
+        <d_Obj oid="-182" class="d_List" classID="7">
+        </d_Obj>
+      <d_Obj oid="-181" class="d_List" classID="7">
+      </d_Obj>
+      <d_Obj oid="-178" class="TDevStr" classID="9" classID2="7">
+        <d_AttrRef name="DC" oid="77"/>
+        <d_AttrObj name="LDL" oid="-180"/>
+        <d_AttrObj name="LLL" oid="-179"/>
+      </d_Obj>
+        <d_Obj oid="-180" class="d_List" classID="7">
+        </d_Obj>
+        <d_Obj oid="-179" class="d_List" classID="7">
+        </d_Obj>
   <d_Named name="CCL" oid="10"/>
   <d_Obj oid="10" class="d_List" classID="7">
   </d_Obj>

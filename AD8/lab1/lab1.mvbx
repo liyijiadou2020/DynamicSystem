@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1251" ?>
-<mvBaseX name="LAB1" build="18" objcount="78" litcount="323" DIM="true">
+<mvBaseX name="LAB1" build="20" objcount="78" litcount="323" DIM="true">
   <d_Named name="PrjH" oid="1"/>
   <d_Obj oid="1" class="TProject" classID="9" classID2="1">
     <d_Attr name="Name">lab1</d_Attr>
@@ -344,36 +344,36 @@
                   <d_Attr name="Stereotype">AV&#x20;&#x20;&#x20;&#x20;R</d_Attr>
                   <d_Attr name="ExpType" valueI="14">vector</d_Attr>
                   <d_AttrRef name="VTdef" oid="-54"/>
-                  <d_AttrRef name="Value" oid="-100"/>
+                  <d_AttrRef name="Value" oid="-167"/>
                 </d_Obj>
                   <d_Obj oid="-54" class="TTypeDef" classID="16">
                     <d_Attr name="VT" valueI="14">vector</d_Attr>
                     <d_Attr name="RowNum">4</d_Attr>
                     <d_Attr name="ColNum">1</d_Attr>
                   </d_Obj>
-                  <d_Obj oid="-100" class="TMatrix" classID="18" classID2="5">
+                  <d_Obj oid="-167" class="TMatrix" classID="18" classID2="5">
                     <d_Attr name="RowNum">4</d_Attr>
                     <d_Attr name="ColNum">1</d_Attr>
-                    <item i="1" j="1" oid="-96"/>
-                    <item i="2" j="1" oid="-97"/>
-                    <item i="3" j="1" oid="-98"/>
-                    <item i="4" j="1" oid="-99"/>
+                    <item i="1" j="1" oid="-177"/>
+                    <item i="2" j="1" oid="-173"/>
+                    <item i="3" j="1" oid="-169"/>
+                    <item i="4" j="1" oid="-168"/>
                   </d_Obj>
-                    <d_Obj oid="-96" class="TLiteral" classID="18" classID2="2">
+                    <d_Obj oid="-177" class="TLiteral" classID="18" classID2="2">
                       <d_Attr name="VT" valueI="2"></d_Attr>
-                      <d_Attr name="S">0.1</d_Attr>
+                      <d_Attr name="S">0.9</d_Attr>
                     </d_Obj>
-                    <d_Obj oid="-97" class="TLiteral" classID="18" classID2="2">
+                    <d_Obj oid="-173" class="TLiteral" classID="18" classID2="2">
                       <d_Attr name="VT" valueI="2"></d_Attr>
                       <d_Attr name="S">0.2</d_Attr>
                     </d_Obj>
-                    <d_Obj oid="-98" class="TLiteral" classID="18" classID2="2">
+                    <d_Obj oid="-169" class="TLiteral" classID="18" classID2="2">
                       <d_Attr name="VT" valueI="2"></d_Attr>
                       <d_Attr name="S">0.5</d_Attr>
                     </d_Obj>
-                    <d_Obj oid="-99" class="TLiteral" classID="18" classID2="2">
-                      <d_Attr name="VT" valueI="6">byte</d_Attr>
-                      <d_Attr name="S">1</d_Attr>
+                    <d_Obj oid="-168" class="TLiteral" classID="18" classID2="2">
+                      <d_Attr name="VT" valueI="2"></d_Attr>
+                      <d_Attr name="S">1.2</d_Attr>
                     </d_Obj>
               <d_Obj oid="-8" class="d_List" classID="7">
               </d_Obj>
