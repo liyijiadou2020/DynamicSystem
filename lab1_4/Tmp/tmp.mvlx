@@ -1,0 +1,152 @@
+package lab1_4 {
+  pragma MaxUID=25;
+  pragma mvs_ver="8.3.15";
+
+  import SysLib;
+
+  hybrid private opened class Abstract {
+      pragma class(Abstract) rectangle Top=0,Left=0,Height=0,Width=0;
+    vector[2] a_values = [5.0; 5.1];
+    vector[2] b_values = [3.0; 3.1];
+    int i = 1; // to control a
+    int j = 1; // to control b
+    int n = 1; // to control the loop
+    double x = 0;
+    vector[4] x_start = [0.1; 0.5; 1.0; 1.5];
+    double y = 0;
+    vector[4] y_start = [0.1; 0.2; 0.5; 1];
+    bchart {
+      initial state _InitState;
+        pragma state(_InitState) rectangle Top=380,Left=160,Height=20,Width=20;
+        pragma state(_InitState) name point X=0,Y=0;
+        pragma state(_InitState) footnote rectangle Top=0,Left=0,Height=0,Width=0;
+      state S1
+        entry actions {
+          x = x_start[n];
+          y = y_start[n];
+        }
+      ;
+        pragma state(S1) rectangle Top=370,Left=220,Height=40,Width=60;
+        pragma state(S1) name point X=0,Y=-15;
+        pragma state(S1) footnote rectangle Top=520,Left=250,Height=0,Width=0;
+      switch state _Switchpoint_6 |"6"|;
+        pragma state(_Switchpoint_6) rectangle Top=380,Left=410,Height=20,Width=20;
+        pragma state(_Switchpoint_6) name point X=0,Y=0;
+        pragma state(_Switchpoint_6) footnote rectangle Top=0,Left=0,Height=0,Width=0;
+      switch state _Switchpoint_9 |"9"|;
+        pragma state(_Switchpoint_9) rectangle Top=380,Left=550,Height=20,Width=20;
+        pragma state(_Switchpoint_9) name point X=0,Y=0;
+        pragma state(_Switchpoint_9) footnote rectangle Top=0,Left=0,Height=0,Width=0;
+      switch state _Switchpoint_12 |"12"|;
+        pragma state(_Switchpoint_12) rectangle Top=380,Left=690,Height=20,Width=20;
+        pragma state(_Switchpoint_12) name point X=0,Y=0;
+        pragma state(_Switchpoint_12) footnote rectangle Top=0,Left=0,Height=0,Width=0;
+      final state _FinalState;
+        pragma state(_FinalState) rectangle Top=380,Left=810,Height=20,Width=20;
+        pragma state(_FinalState) name point X=0,Y=0;
+        pragma state(_FinalState) footnote rectangle Top=0,Left=0,Height=0,Width=0;
+      transition Tran_1 from _InitState to S1;
+        pragma transition(Tran_1) line [(210,390)];
+        pragma transition(Tran_1) footnote rectangle Top=100,Left=70,Height=0,Width=0;
+        pragma transition (Tran_1) style polyline;
+      transition _T_7 |"7"| from S1 to _Switchpoint_6 after 20
+        actions {
+          n++;
+        }
+      ;
+        pragma transition(_T_7) line [(290,390)];
+        pragma transition(_T_7) footnote rectangle Top=420,Left=290,Height=0,Width=0;
+        pragma transition (_T_7) style spline;
+      transition _T_8 |"8"| from _Switchpoint_6 to S1 [n <= 4];
+        pragma transition(_T_8) line [(410,320),(260,320)];
+        pragma transition(_T_8) footnote rectangle Top=290,Left=310,Height=0,Width=0;
+        pragma transition (_T_8) style spline;
+      transition _T_10 |"10"| from _Switchpoint_6 to _Switchpoint_9 [else]
+        actions {
+          j++;
+          n = 0;
+        }
+      ;
+        pragma transition(_T_10) line [(440,390)];
+        pragma transition(_T_10) footnote rectangle Top=400,Left=440,Height=0,Width=0;
+        pragma transition (_T_10) style spline;
+      transition _T_11 |"11"| from _Switchpoint_9 to S1 [j <= 2];
+        pragma transition(_T_11) line [(560,250),(240,240)];
+        pragma transition(_T_11) footnote rectangle Top=220,Left=370,Height=0,Width=0;
+        pragma transition (_T_11) style spline;
+      transition _T_13 |"13"| from _Switchpoint_9 to _Switchpoint_12 [else]
+        actions {
+          i++;
+          j = 0;
+        }
+      ;
+        pragma transition(_T_13) line [(580,390)];
+        pragma transition(_T_13) footnote rectangle Top=400,Left=580,Height=0,Width=0;
+        pragma transition (_T_13) style spline;
+      transition _T_14 |"14"| from _Switchpoint_12 to S1 [i <= 2];
+        pragma transition(_T_14) line [(700,170),(240,170)];
+        pragma transition(_T_14) footnote rectangle Top=140,Left=410,Height=0,Width=0;
+        pragma transition (_T_14) style spline;
+      transition _T_15 |"15"| from _Switchpoint_12 to _FinalState [else];
+        pragma transition(_T_15) line [(720,390)];
+        pragma transition(_T_15) footnote rectangle Top=0,Left=0,Height=0,Width=0;
+        pragma transition (_T_15) style spline;
+    };
+  } //Abstract
+
+  hybrid private opened class c1 extends Abstract {
+    double x1 = 0;
+    double y1 = 0;
+    local hybrid class next_step_1 {
+      bchart {
+        initial state _InitState;
+          pragma state(_InitState) rectangle Top=80,Left=20,Height=20,Width=20;
+          pragma state(_InitState) name point X=0,Y=0;
+          pragma state(_InitState) footnote rectangle Top=0,Left=0,Height=0,Width=0;
+        state S1
+          entry actions {
+            x1 = x*(a_values[i]-x-y)/3;
+            y1 = y*(b_values[j]*y-x)/3;
+            x = x1;
+            y = y1;
+          }
+        ;
+          pragma state(S1) rectangle Top=70,Left=80,Height=40,Width=60;
+          pragma state(S1) name point X=0,Y=-15;
+          pragma state(S1) footnote rectangle Top=0,Left=0,Height=0,Width=0;
+        transition Tran_1 from _InitState to S1;
+          pragma transition(Tran_1) line [(70,90)];
+          pragma transition(Tran_1) footnote rectangle Top=0,Left=0,Height=0,Width=0;
+          pragma transition (Tran_1) style polyline;
+        transition _T_20 |"20"| from S1 to S1 after 1;
+          pragma transition(_T_20) line [(230,100),(230,20),(120,20)];
+          pragma transition(_T_20) footnote rectangle Top=60,Left=270,Height=0,Width=0;
+          pragma transition (_T_20) style polyline;
+      };
+    } //next_step_1
+    bchart {
+      override state S1 do next_step_1;
+    };
+  } //c1
+
+
+  hybrid compound class Model extends Abstract {
+    bchart {
+      initial state _InitState;
+        pragma state(_InitState) rectangle Top=80,Left=20,Height=20,Width=20;
+        pragma state(_InitState) name point X=0,Y=0;
+        pragma state(_InitState) footnote rectangle Top=0,Left=0,Height=0,Width=0;
+      state S1;
+        pragma state(S1) rectangle Top=70,Left=80,Height=40,Width=60;
+        pragma state(S1) name point X=0,Y=-15;
+        pragma state(S1) footnote rectangle Top=0,Left=0,Height=0,Width=0;
+      transition Tran_1 from _InitState to S1;
+        pragma transition(Tran_1) line [(70,90)];
+        pragma transition(Tran_1) footnote rectangle Top=0,Left=0,Height=0,Width=0;
+        pragma transition (Tran_1) style polyline;
+    };
+  } //Model
+
+  static Model model;
+
+}
