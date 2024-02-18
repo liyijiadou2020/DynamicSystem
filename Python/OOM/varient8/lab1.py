@@ -29,7 +29,7 @@ class DynamicSystem(ABC):
                 trajectory.append(self.next_state(trajectory[-1]))
             trajectory = np.array(trajectory)
             plt.plot(trajectory[:, 0], trajectory[:, 1], '-o')
-            print("initial state : ", state, "trajectory: ", trajectory)
+            # print("initial state : ", state, "trajectory: ", trajectory)
         plt.xlabel('x')
         plt.ylabel('y')
         plt.title(title)
