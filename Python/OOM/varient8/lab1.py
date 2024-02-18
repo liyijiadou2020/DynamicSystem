@@ -60,10 +60,10 @@ if __name__ == "__main__":
     a_values = [5.0, 5.1]
     b_values = [3.0, 3.1]
     initial_states = [
-        np.array([0.1, 0.1]),
+        np.array([0.1, 0.9]),
         np.array([0.5, 0.2]),
         np.array([1.0, 0.5]),
-        np.array([1.5, 1])]
+        np.array([1.5, 1.2])]
 
     for a in a_values:
         for b in b_values:

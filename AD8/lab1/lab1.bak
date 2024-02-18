@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="windows-1251" ?>
-<mvBaseX name="LAB1" build="8" objcount="78" litcount="323" DIM="true">
+<mvBaseX name="LAB1" build="15" objcount="78" litcount="323" DIM="true">
   <d_Named name="PrjH" oid="1"/>
   <d_Obj oid="1" class="TProject" classID="9" classID2="1">
     <d_Attr name="Name">lab1</d_Attr>
@@ -29,7 +29,7 @@
   </d_Obj>
   <d_Named name="mvsLastObjectID" oid="13"/>
   <d_Obj oid="13" class="d_Integer" classID="24">
-    <d_Attr name="val">15</d_Attr>
+    <d_Attr name="val">17</d_Attr>
   </d_Obj>
   <d_Named name="model" oid="4"/>
   <d_Obj oid="4" class="TDevInst" classID="9" classID2="13">
@@ -159,18 +159,18 @@
         <d_AttrObj name="LLL" oid="-219"/>
       </d_Obj>
         <d_Obj oid="-218" class="d_List" classID="7">
-          <d_Ref oid="77"/>
-          <d_Ref oid="78"/>
+          <d_Ref oid="55"/>
+          <d_Ref oid="54"/>
         </d_Obj>
-          <d_Obj oid="77" class="TDevInst" classID="9" classID2="13">
+          <d_Obj oid="55" class="TDevInst" classID="9" classID2="13">
             <d_Attr name="Name">Abs_1</d_Attr>
             <d_Attr name="Stereotype">&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;</d_Attr>
-            <d_Attr name="UID">14</d_Attr>
+            <d_Attr name="UID">16</d_Attr>
             <d_Attr name="nameY">-20</d_Attr>
             <d_AttrRef name="C" oid="2"/>
-            <d_AttrObj name="PL" oid="-310"/>
-            <d_AttrObj name="EI" oid="-311"/>
-            <d_AttrObj name="IL" oid="-312"/>
+            <d_AttrObj name="PL" oid="-316"/>
+            <d_AttrObj name="EI" oid="-202"/>
+            <d_AttrObj name="IL" oid="-201"/>
           </d_Obj>
             <d_Obj oid="2" class="TActiveDynObjectClass" classID="9" classID2="3">
               <d_Attr name="Name">Abs</d_Attr>
@@ -294,7 +294,7 @@
                     <d_Attr name="S">1</d_Attr>
                   </d_Obj>
                 <d_Obj oid="23" class="TVariable" classID="9" classID2="15">
-                  <d_Attr name="Name">1</d_Attr>
+                  <d_Attr name="Name">n</d_Attr>
                   <d_Attr name="Stereotype">AV&#x20;&#x20;&#x20;&#x20;R</d_Attr>
                   <d_Attr name="ExpType" valueI="5">int</d_Attr>
                   <d_AttrRef name="Value" oid="-323"/>
@@ -614,32 +614,32 @@
                     <d_Obj oid="-117" class="d_List" classID="7">
                     </d_Obj>
                     <d_Obj oid="-118" class="d_List" classID="7">
-                      <d_Ref oid="46"/>
-                      <d_Ref oid="47"/>
+                      <d_Ref oid="53"/>
+                      <d_Ref oid="52"/>
                     </d_Obj>
-                      <d_Obj oid="46" class="TAssignStm" classID="9" classID2="42">
+                      <d_Obj oid="53" class="TAssignStm" classID="9" classID2="42">
                         <d_AttrRef name="V" oid="22"/>
-                        <d_AttrRef name="E" oid="-166"/>
+                        <d_AttrRef name="E" oid="-195"/>
                       </d_Obj>
-                        <d_Obj oid="-166" class="TOpResult" classID="18" classID2="1">
+                        <d_Obj oid="-195" class="TOpResult" classID="18" classID2="1">
                           <d_Attr name="OC" val="5" sval="+"/>
-                          <d_AttrObj name="x1" oid="-165"/>
-                          <d_AttrObj name="x2" oid="-164"/>
+                          <d_AttrObj name="x1" oid="-196"/>
+                          <d_AttrObj name="x2" oid="-197"/>
                         </d_Obj>
-                          <d_Obj oid="-165" class="TVarRef" classID="18" classID2="3">
+                          <d_Obj oid="-196" class="TVarRef" classID="18" classID2="3">
                             <d_AttrRef name="VR" oid="22"/>
                           </d_Obj>
-                          <d_Obj oid="-164" class="TLiteral" classID="18" classID2="2">
+                          <d_Obj oid="-197" class="TLiteral" classID="18" classID2="2">
                             <d_Attr name="VT" valueI="5">int</d_Attr>
                             <d_Attr name="S">1</d_Attr>
                           </d_Obj>
-                      <d_Obj oid="47" class="TAssignStm" classID="9" classID2="42">
+                      <d_Obj oid="52" class="TAssignStm" classID="9" classID2="42">
                         <d_AttrRef name="V" oid="23"/>
-                        <d_AttrRef name="E" oid="-167"/>
+                        <d_AttrRef name="E" oid="-194"/>
                       </d_Obj>
-                        <d_Obj oid="-167" class="TLiteral" classID="18" classID2="2">
+                        <d_Obj oid="-194" class="TLiteral" classID="18" classID2="2">
                           <d_Attr name="VT" valueI="6">byte</d_Attr>
-                          <d_Attr name="S">0</d_Attr>
+                          <d_Attr name="S">1</d_Attr>
                         </d_Obj>
                     <d_Obj oid="-119" class="TTransEdInf" classID="9" classID2="41">
                       <d_AttrRef name="PPA" oid="-120"/>
@@ -662,32 +662,32 @@
                     <d_Obj oid="-124" class="d_List" classID="7">
                     </d_Obj>
                     <d_Obj oid="-125" class="d_List" classID="7">
-                      <d_Ref oid="48"/>
-                      <d_Ref oid="49"/>
+                      <d_Ref oid="51"/>
+                      <d_Ref oid="50"/>
                     </d_Obj>
-                      <d_Obj oid="48" class="TAssignStm" classID="9" classID2="42">
+                      <d_Obj oid="51" class="TAssignStm" classID="9" classID2="42">
                         <d_AttrRef name="V" oid="21"/>
-                        <d_AttrRef name="E" oid="-170"/>
+                        <d_AttrRef name="E" oid="-191"/>
                       </d_Obj>
-                        <d_Obj oid="-170" class="TOpResult" classID="18" classID2="1">
+                        <d_Obj oid="-191" class="TOpResult" classID="18" classID2="1">
                           <d_Attr name="OC" val="5" sval="+"/>
-                          <d_AttrObj name="x1" oid="-169"/>
-                          <d_AttrObj name="x2" oid="-168"/>
+                          <d_AttrObj name="x1" oid="-192"/>
+                          <d_AttrObj name="x2" oid="-193"/>
                         </d_Obj>
-                          <d_Obj oid="-169" class="TVarRef" classID="18" classID2="3">
+                          <d_Obj oid="-192" class="TVarRef" classID="18" classID2="3">
                             <d_AttrRef name="VR" oid="21"/>
                           </d_Obj>
-                          <d_Obj oid="-168" class="TLiteral" classID="18" classID2="2">
+                          <d_Obj oid="-193" class="TLiteral" classID="18" classID2="2">
                             <d_Attr name="VT" valueI="5">int</d_Attr>
                             <d_Attr name="S">1</d_Attr>
                           </d_Obj>
-                      <d_Obj oid="49" class="TAssignStm" classID="9" classID2="42">
+                      <d_Obj oid="50" class="TAssignStm" classID="9" classID2="42">
                         <d_AttrRef name="V" oid="22"/>
-                        <d_AttrRef name="E" oid="-171"/>
+                        <d_AttrRef name="E" oid="-190"/>
                       </d_Obj>
-                        <d_Obj oid="-171" class="TLiteral" classID="18" classID2="2">
+                        <d_Obj oid="-190" class="TLiteral" classID="18" classID2="2">
                           <d_Attr name="VT" valueI="6">byte</d_Attr>
-                          <d_Attr name="S">0</d_Attr>
+                          <d_Attr name="S">1</d_Attr>
                         </d_Obj>
                     <d_Obj oid="-126" class="TTransEdInf" classID="9" classID2="41">
                       <d_AttrRef name="PPA" oid="-127"/>
@@ -761,22 +761,22 @@
                     <d_Attr name="UID">10</d_Attr>
                     <d_AttrRef name="initN" oid="34"/>
                     <d_AttrRef name="finalN" oid="15"/>
-                    <d_AttrRef name="GP" oid="-319"/>
+                    <d_AttrRef name="GP" oid="-187"/>
                     <d_AttrObj name="SPL" oid="-146"/>
                     <d_AttrObj name="A" oid="-147"/>
                     <d_AttrObj name="EI" oid="-148"/>
                   </d_Obj>
-                    <d_Obj oid="-319" class="TOpResult" classID="18" classID2="1">
+                    <d_Obj oid="-187" class="TOpResult" classID="18" classID2="1">
                       <d_Attr name="OC" val="14" sval="&lt;="/>
-                      <d_AttrObj name="x1" oid="-317"/>
-                      <d_AttrObj name="x2" oid="-318"/>
+                      <d_AttrObj name="x1" oid="-189"/>
+                      <d_AttrObj name="x2" oid="-188"/>
                     </d_Obj>
-                      <d_Obj oid="-317" class="TVarRef" classID="18" classID2="3">
+                      <d_Obj oid="-189" class="TVarRef" classID="18" classID2="3">
                         <d_AttrRef name="VR" oid="22"/>
                       </d_Obj>
-                      <d_Obj oid="-318" class="TLiteral" classID="18" classID2="2">
+                      <d_Obj oid="-188" class="TLiteral" classID="18" classID2="2">
                         <d_Attr name="VT" valueI="6">byte</d_Attr>
-                        <d_Attr name="S">3</d_Attr>
+                        <d_Attr name="S">2</d_Attr>
                       </d_Obj>
                     <d_Obj oid="-146" class="d_List" classID="7">
                     </d_Obj>
@@ -798,22 +798,22 @@
                     <d_Attr name="UID">11</d_Attr>
                     <d_AttrRef name="initN" oid="36"/>
                     <d_AttrRef name="finalN" oid="15"/>
-                    <d_AttrRef name="GP" oid="-322"/>
+                    <d_AttrRef name="GP" oid="-184"/>
                     <d_AttrObj name="SPL" oid="-153"/>
                     <d_AttrObj name="A" oid="-154"/>
                     <d_AttrObj name="EI" oid="-155"/>
                   </d_Obj>
-                    <d_Obj oid="-322" class="TOpResult" classID="18" classID2="1">
+                    <d_Obj oid="-184" class="TOpResult" classID="18" classID2="1">
                       <d_Attr name="OC" val="14" sval="&lt;="/>
-                      <d_AttrObj name="x1" oid="-320"/>
-                      <d_AttrObj name="x2" oid="-321"/>
+                      <d_AttrObj name="x1" oid="-186"/>
+                      <d_AttrObj name="x2" oid="-185"/>
                     </d_Obj>
-                      <d_Obj oid="-320" class="TVarRef" classID="18" classID2="3">
+                      <d_Obj oid="-186" class="TVarRef" classID="18" classID2="3">
                         <d_AttrRef name="VR" oid="21"/>
                       </d_Obj>
-                      <d_Obj oid="-321" class="TLiteral" classID="18" classID2="2">
+                      <d_Obj oid="-185" class="TLiteral" classID="18" classID2="2">
                         <d_Attr name="VT" valueI="6">byte</d_Attr>
-                        <d_Attr name="S">3</d_Attr>
+                        <d_Attr name="S">2</d_Attr>
                       </d_Obj>
                     <d_Obj oid="-153" class="d_List" classID="7">
                     </d_Obj>
@@ -859,23 +859,23 @@
                 </d_Obj>
                 <d_Obj oid="-21" class="d_List" classID="7">
                 </d_Obj>
-            <d_Obj oid="-310" class="d_List" classID="7">
+            <d_Obj oid="-316" class="d_List" classID="7">
             </d_Obj>
-            <d_Obj oid="-311" class="TDevClassEdInf" classID="9" classID2="9">
+            <d_Obj oid="-202" class="TDevClassEdInf" classID="9" classID2="9">
               <d_Attr name="Top">70</d_Attr>
-              <d_Attr name="Left">130</d_Attr>
+              <d_Attr name="Left">90</d_Attr>
             </d_Obj>
-            <d_Obj oid="-312" class="d_List" classID="7">
+            <d_Obj oid="-201" class="d_List" classID="7">
             </d_Obj>
-          <d_Obj oid="78" class="TDevInst" classID="9" classID2="13">
+          <d_Obj oid="54" class="TDevInst" classID="9" classID2="13">
             <d_Attr name="Name">Class_1_1</d_Attr>
             <d_Attr name="Stereotype">&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;&#x20;</d_Attr>
-            <d_Attr name="UID">15</d_Attr>
+            <d_Attr name="UID">17</d_Attr>
             <d_Attr name="nameY">-20</d_Attr>
             <d_AttrRef name="C" oid="62"/>
-            <d_AttrObj name="PL" oid="-313"/>
-            <d_AttrObj name="EI" oid="-314"/>
-            <d_AttrObj name="IL" oid="-315"/>
+            <d_AttrObj name="PL" oid="-200"/>
+            <d_AttrObj name="EI" oid="-199"/>
+            <d_AttrObj name="IL" oid="-198"/>
           </d_Obj>
             <d_Obj oid="62" class="TActiveDynObjectClass" classID="9" classID2="3">
               <d_Attr name="Name">Class_1</d_Attr>
@@ -1252,13 +1252,13 @@
                 </d_Obj>
                 <d_Obj oid="-247" class="d_List" classID="7">
                 </d_Obj>
-            <d_Obj oid="-313" class="d_List" classID="7">
+            <d_Obj oid="-200" class="d_List" classID="7">
             </d_Obj>
-            <d_Obj oid="-314" class="TDevClassEdInf" classID="9" classID2="9">
-              <d_Attr name="Top">180</d_Attr>
-              <d_Attr name="Left">130</d_Attr>
+            <d_Obj oid="-199" class="TDevClassEdInf" classID="9" classID2="9">
+              <d_Attr name="Top">170</d_Attr>
+              <d_Attr name="Left">90</d_Attr>
             </d_Obj>
-            <d_Obj oid="-315" class="d_List" classID="7">
+            <d_Obj oid="-198" class="d_List" classID="7">
             </d_Obj>
         <d_Obj oid="-219" class="d_List" classID="7">
         </d_Obj>
