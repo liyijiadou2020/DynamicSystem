@@ -1,5 +1,9 @@
 import numpy as np
 
+"""
+画AnyDynamics行为转移图的伪代码，不需要运行
+"""
+
 def ic_1_1(x, y, a_values, b_values, i, j):
     x1 = (x * (a_values[i] - x - y)) / 3
     y1 = (y * (b_values[j] * y - x)) / 3
