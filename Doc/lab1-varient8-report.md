@@ -30,19 +30,30 @@ $$
 ### 2.3 Класс-наследник (MatrixDS)
 Реализуйте подкласс (MatrixDS), унаследованный от родительского класса ScalarDS: этот подкласс специализируется на обработке уравнений в матричной форме (векторно-матричной форме). Это означает, что по сравнению с родительским классом он может обрабатывать более сложные математические модели, особенно те системы, которые требуют матричных и векторных вычислений. Подклассы должны расширять функциональность родительского класса для поддержки анализа уравнений в матричной форме.
 
-![image.png](https://raw.githubusercontent.com/liyijiadou2020/picrepo/master/202402182258021.png)
+![image.png](https://raw.githubusercontent.com/liyijiadou2020/picrepo/master/202402211122668.png)
 
-![image.png](https://raw.githubusercontent.com/liyijiadou2020/picrepo/master/202402182258394.png)
+![image.png](https://raw.githubusercontent.com/liyijiadou2020/picrepo/master/202402211122572.png)
 
 ## 3 Анализ результата
 ### 3.1 Фазовые портреты
-![image.png](https://raw.githubusercontent.com/liyijiadou2020/picrepo/master/202402182307642.png)
 
-![image.png](https://raw.githubusercontent.com/liyijiadou2020/picrepo/master/202402182307429.png)
+t=20:
+![image.png](https://raw.githubusercontent.com/liyijiadou2020/picrepo/master/202402211127223.png)
 
-![image.png](https://raw.githubusercontent.com/liyijiadou2020/picrepo/master/202402182307391.png)
+t=40:
+![image.png](https://raw.githubusercontent.com/liyijiadou2020/picrepo/master/202402211128921.png)
 
-![alt text](image.png)
+t=60:
+![image.png](https://raw.githubusercontent.com/liyijiadou2020/picrepo/master/202402211128579.png)
+
+t=80:
+![image.png](https://raw.githubusercontent.com/liyijiadou2020/picrepo/master/202402211129998.png)
+
+t=240:
+![image.png](https://raw.githubusercontent.com/liyijiadou2020/picrepo/master/202402211129175.png)
+
+![image.png](https://raw.githubusercontent.com/liyijiadou2020/picrepo/master/202402211130913.png)
+
 
 Из анализа заданных точек траектории мы знаем, что при каждом наборе параметров и начальном состоянии траектория системы со временем приближается к определенному значению, и эти конкретные значения могут быть неподвижными точками системы. Фиксированная точка — это точка, в которой состояние больше не меняется во время последовательных итераций, а именно $x_{n+1} = x_n$ и $y_{n+1} = y_n$.
 
